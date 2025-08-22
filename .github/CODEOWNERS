@@ -1,0 +1,38 @@
+# CODEOWNERS file for document-server-696
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-test @Armor-test/team-research @Armor-test/squad-search
+
+# Directory ownership
+/tests/ @Armor-test/grp-storage @Armor-test/unit-governance
+/ui/ @Armor-test/dept-logging @Armor-test/dept-identity
+/db/ @Armor-test/squad-research @Armor-test/dept-release
+/utils/ @Armor-test/squad-tooling @Armor-test/grp-storage
+/helpers/ @Armor-test/dept-data @Armor-test/squad-reporting
+/controllers/ @Armor-test/squad-search @Armor-test/unit-governance
+/api/ @Armor-test/squad-ux @Armor-test/dept-release
+/middleware/ @Armor-test/squad-search @Armor-test/squad-payments
+/auth/ @Armor-test/dept-automation @Armor-test/squad-product
+/dist/ @Armor-test/squad-payments @Armor-test/team-reporting
+/shared/ @Armor-test/squad-performance @Armor-test/grp-storage @Armor-test/team-core
+
+# File type ownership
+*.css @Armor-test/dept-identity @Armor-test/team-security
+*.lock @Armor-test/squad-ux @Armor-test/squad-research @Armor-test/dept-notifications
+*.c @Armor-test/squad-database @Armor-test/dept-data @Armor-test/squad-tooling
+*.swift @Armor-test/squad-research @Armor-test/team-logging @Armor-test/squad-mobile
+*.yml @Armor-test/team-notifications @Armor-test/squad-apps @Armor-test/squad-qa
+*.html @Armor-test/team-frontend @Armor-test/team-notifications
+*.scss @Armor-test/unit-cloud @Armor-test/team-frontend
+*.py @Armor-test/dept-security @Armor-test/team-frontend
+*.ts @Armor-test/dept-data @Armor-test/squad-research @Armor-test/team-notifications
+*.gradle @Armor-test/team-frontend @Armor-test/grp-integration
+*.h @Armor-test/dept-billing @Armor-test/squad-database @Armor-test/grp-storage
+*.ini @Armor-test/grp-search @Armor-test/dept-reporting
+*.js @Armor-test/dept-automation @Armor-test/team-governance @Armor-test/squad-ml
+*.go @Armor-test/squad-apps @Armor-test/grp-integration
+*.kt @Armor-test/team-frontend @Armor-test/squad-performance @Armor-test/squad-search
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
